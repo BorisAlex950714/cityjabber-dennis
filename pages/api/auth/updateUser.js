@@ -32,7 +32,7 @@ export default async (req, res) => {
       }
       const { id, username, firstname, lastname, phonenumber, location, aboutMe, facebook, twitter, gender, birthday } = fields
       // Access the uploaded file details via `files`
-      const newPath = `.${uploadDir}/${id[0]}`;
+      // const newPath = `.${uploadDir}/${id[0]}`;
       console.log(files.file)
       if (files.file) {
         const uploadedFile = files.file[0];
@@ -56,7 +56,7 @@ export default async (req, res) => {
           twitter: twitter[0],
           birthday: birthday[0],
           gender: gender[0],
-          avatar: `/uploads/${id[0]}`,
+          // avatar: `/uploads/${id[0]}`,
         }, {new: true});
 
         if (!updatedUser) {

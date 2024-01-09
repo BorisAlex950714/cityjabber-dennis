@@ -39,5 +39,3 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ## React Theme
 
 https://creativelayers.net/themes/gotrip-html/ui-elements.html
-# cityjabber-dennis
-# cityjabber-dennis
